@@ -16,13 +16,14 @@ public class TC_LoginTest_001 extends BaseClass {
 	{
 		
 		 login = new LoginPage(driver);
+		 logger.info("User enters username and password");
 		login.setUsername(username);
 		login.setPassword(password);
 		login.clickonLoginbutton();
 		
-	if(driver.getTitle().equals("Guru99 Bank Manager HomePageee"))	
+	if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))	
 	{
-		
+		logger.info("Title validation started");
 		Assert.assertTrue(true);
 	}
 	else
@@ -34,9 +35,14 @@ public class TC_LoginTest_001 extends BaseClass {
 	
 	}
 	@Test(priority=2)
-	public void logout_test()
+	public void logout_test() 
 	{
+		logger.info("User logsout from application");
 		login.logout();
+		
+		driver.switchTo().alert().accept();
+		driver.switchTo().defaultContent();
+		
 		
 	}
 	

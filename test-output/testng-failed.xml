@@ -8,6 +8,7 @@
   <test name="BankingApp">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.NetBanking.TestCases.TC_LoginTest_001"/>
       <class name="com.NetBanking.TestCases.TC_AddNewCustomer_003"/>
     </classes>
   </test> <!-- BankingApp -->

@@ -1,0 +1,8 @@
+2020-04-19 20:27:01,718 [main] INFO NetBanking - User enters username and password
+2020-04-19 20:27:03,605 [main] INFO NetBanking - Title validation started
+2020-04-19 20:27:03,669 [main] INFO NetBanking - User logsout from application
+2020-04-19 20:27:20,996 [main] INFO NetBanking - User is going to login
+2020-04-19 20:27:22,785 [main] INFO NetBanking - User successfully loggedin
+2020-04-19 20:27:25,804 [main] INFO NetBanking - Adding customer details
+2020-04-19 20:27:39,843 [main] INFO NetBanking - Validation started
+2020-04-19 20:27:39,871 [main] INFO NetBanking - Test case passed

@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -35,17 +36,22 @@ public class BaseClass {
 	
 	@Parameters("browser")
 	@BeforeClass
-	public  void Initialization(String browsr)
+	public  void Initialization(String browsr) 
 	{
 		
 		 logger = Logger.getLogger("NetBanking");
 		 PropertyConfigurator.configure("Log4j.properties");
+		// Logger.getRootLogger().setLevel(Level.OFF);
+		
+		
+		 
 		
 		
 		if(browsr.equals("chrome"))
 		{		
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
 		 driver = new ChromeDriver();
+		
 		
 		}
 		

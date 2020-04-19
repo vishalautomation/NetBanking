@@ -10,7 +10,7 @@ import com.NetBanking.PageObjects.LoginPage;
 
 public class TC_AddNewCustomer_003 extends BaseClass {
 
-	@Test(priority=1)
+	@Test(priority=3)
 	public void login_test() throws InterruptedException
 	{
 		logger.info("User is going to login");
@@ -23,7 +23,7 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 
 	}
 
-	@Test(priority=2)
+	@Test(priority=4)
 	public void add_new_customer_test() throws InterruptedException
 	{
 		AddNewCustomer customer = new AddNewCustomer(driver);
@@ -48,7 +48,7 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 		Thread.sleep(3000);
 	}
 
-	@Test(priority=3)
+	@Test(priority=5)
 	public void validation() throws IOException
 	{
 		logger.info("Validation started");
