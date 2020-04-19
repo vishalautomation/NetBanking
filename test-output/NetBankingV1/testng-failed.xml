@@ -8,19 +8,7 @@
   <test name="BankingApp">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.NetBanking.TestCases.TC_LoginDataDriven_002"/>
+      <class name="com.NetBanking.TestCases.TC_AddNewCustomer_003"/>
     </classes>
   </test> <!-- BankingApp -->
-  <test name="BankingApp(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.NetBanking.TestCases.TC_LoginDataDriven_002">
-        <methods>
-          <include name="Initialization"/>
-          <include name="login_data_driven" invocation-numbers="1 2"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.NetBanking.TestCases.TC_LoginDataDriven_002 -->
-    </classes>
-  </test> <!-- BankingApp(failed) -->
 </suite> <!-- Failed suite [NetBankingV1] -->
