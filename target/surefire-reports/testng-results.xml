@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="NetBankingV1" duration-ms="54016" started-at="2020-04-19T14:56:46Z" finished-at="2020-04-19T14:57:40Z">
+  <suite name="NetBankingV1" duration-ms="62172" started-at="2020-04-21T06:45:44Z" finished-at="2020-04-21T06:46:47Z">
     <groups>
     </groups>
-    <test name="BankingApp" duration-ms="54016" started-at="2020-04-19T14:56:46Z" finished-at="2020-04-19T14:57:40Z">
+    <test name="BankingApp" duration-ms="62172" started-at="2020-04-21T06:45:44Z" finished-at="2020-04-21T06:46:47Z">
       <class name="com.NetBanking.TestCases.TC_AddNewCustomer_003">
-        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@5a61f5df]" name="Initialization" is-config="true" duration-ms="13747" started-at="2020-04-19T20:27:07Z" finished-at="2020-04-19T20:27:20Z">
+        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@735b478]" name="Initialization" is-config="true" duration-ms="12154" started-at="2020-04-21T12:16:13Z" finished-at="2020-04-21T12:16:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="login_test()[pri:3, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@5a61f5df]" name="login_test" duration-ms="4792" started-at="2020-04-19T20:27:20Z" finished-at="2020-04-19T20:27:25Z">
+        <test-method status="PASS" signature="login_test()[pri:3, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@735b478]" name="login_test" duration-ms="5634" started-at="2020-04-21T12:16:25Z" finished-at="2020-04-21T12:16:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
-        <test-method status="PASS" signature="add_new_customer_test()[pri:4, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@5a61f5df]" name="add_new_customer_test" duration-ms="14055" started-at="2020-04-19T20:27:25Z" finished-at="2020-04-19T20:27:39Z">
+        <test-method status="PASS" signature="add_new_customer_test()[pri:4, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@735b478]" name="add_new_customer_test" duration-ms="15040" started-at="2020-04-21T12:16:30Z" finished-at="2020-04-21T12:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_new_customer_test -->
-        <test-method status="PASS" signature="validation()[pri:5, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@5a61f5df]" name="validation" duration-ms="32" started-at="2020-04-19T20:27:39Z" finished-at="2020-04-19T20:27:39Z">
+        <test-method status="PASS" signature="validation()[pri:5, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@735b478]" name="validation" duration-ms="33" started-at="2020-04-21T12:16:45Z" finished-at="2020-04-21T12:16:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@5a61f5df]" name="teardown" is-config="true" duration-ms="754" started-at="2020-04-19T20:27:39Z" finished-at="2020-04-19T20:27:40Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_AddNewCustomer_003@735b478]" name="teardown" is-config="true" duration-ms="1018" started-at="2020-04-21T12:16:46Z" finished-at="2020-04-21T12:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.NetBanking.TestCases.TC_AddNewCustomer_003 -->
       <class name="com.NetBanking.TestCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@36f6e879]" name="Initialization" is-config="true" duration-ms="14753" started-at="2020-04-19T20:26:46Z" finished-at="2020-04-19T20:27:01Z">
+        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@52af6cff]" name="Initialization" is-config="true" duration-ms="20408" started-at="2020-04-21T12:15:45Z" finished-at="2020-04-21T12:16:05Z">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="logintest()[pri:1, instance:com.NetBanking.TestCases.TC_LoginTest_001@36f6e879]" name="logintest" duration-ms="1950" started-at="2020-04-19T20:27:01Z" finished-at="2020-04-19T20:27:03Z">
+        <test-method status="PASS" signature="logintest()[pri:1, instance:com.NetBanking.TestCases.TC_LoginTest_001@52af6cff]" name="logintest" duration-ms="3731" started-at="2020-04-21T12:16:05Z" finished-at="2020-04-21T12:16:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="logout_test()[pri:2, instance:com.NetBanking.TestCases.TC_LoginTest_001@36f6e879]" name="logout_test" duration-ms="2543" started-at="2020-04-19T20:27:03Z" finished-at="2020-04-19T20:27:06Z">
+        <test-method status="PASS" signature="logout_test()[pri:2, instance:com.NetBanking.TestCases.TC_LoginTest_001@52af6cff]" name="logout_test" duration-ms="2746" started-at="2020-04-21T12:16:09Z" finished-at="2020-04-21T12:16:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout_test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@36f6e879]" name="teardown" is-config="true" duration-ms="1037" started-at="2020-04-19T20:27:06Z" finished-at="2020-04-19T20:27:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@52af6cff]" name="teardown" is-config="true" duration-ms="915" started-at="2020-04-21T12:16:12Z" finished-at="2020-04-21T12:16:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
