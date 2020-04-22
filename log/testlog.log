@@ -72,3 +72,11 @@
 2020-04-21 21:01:42,141 - NetBanking -INFO - User logsout from application
 2020-04-21 21:02:54,775 - NetBanking -INFO - User enters username and password
 2020-04-21 21:02:56,352 - NetBanking -INFO - User logsout from application
+2020-04-22 19:35:51,917 - NetBanking -INFO - User enters username and password
+2020-04-22 19:35:56,720 - NetBanking -INFO - Title validation started
+2020-04-22 19:35:56,888 - NetBanking -INFO - User logsout from application
+2020-04-22 19:36:11,291 - NetBanking -INFO - User is going to login
+2020-04-22 19:36:13,243 - NetBanking -INFO - User successfully loggedin
+2020-04-22 19:36:16,265 - NetBanking -INFO - Adding customer details
+2020-04-22 19:36:29,952 - NetBanking -INFO - Validation started
+2020-04-22 19:36:29,981 - NetBanking -INFO - Test case passed
