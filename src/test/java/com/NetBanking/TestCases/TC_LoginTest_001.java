@@ -1,7 +1,6 @@
 package com.NetBanking.TestCases;
 
 import java.io.IOException;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,14 +10,21 @@ public class TC_LoginTest_001 extends BaseClass {
 	
 	LoginPage login;
 	
+	
 	@Test(priority=1)
 	public void logintest() throws IOException
 	{
 		
+		
 		 login = new LoginPage(driver);
+		 
 		 logger.info("User enters username and password");
 		login.setUsername(username);
+		
 		login.setPassword(password);
+		//highlightElement(driver, login.store_webelement_password(),"logintest");
+		
+		
 		login.clickonLoginbutton();
 		
 	if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))	

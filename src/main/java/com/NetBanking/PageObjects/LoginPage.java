@@ -1,6 +1,7 @@
 package com.NetBanking.PageObjects;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +12,7 @@ import com.NetBanking.TestCases.BaseClass;
 
 public class LoginPage extends BaseClass {
 	
-	
+	public WebElement paswrd;
 	
 	public LoginPage(WebDriver driver)
 	
@@ -62,7 +63,10 @@ public class LoginPage extends BaseClass {
 		logout.click();
 	}
 	
-	
+	public WebElement store_webelement_password(){
+	     paswrd = driver.findElement(By.name("password"));
+	     return paswrd;
+	}
 	
 
 }

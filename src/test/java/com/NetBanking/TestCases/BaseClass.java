@@ -8,9 +8,11 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -84,12 +86,16 @@ public class BaseClass {
 	
 	}
 	
-	public void captureScreenshot(WebDriver driver, String testcasename) throws IOException {
+	public void captureScreenshot(WebDriver driver, String testcasename) throws IOException 
+	{
+		
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + testcasename + ".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+		
+	
 	}
 	
 	public String random_string()
@@ -107,6 +113,17 @@ public class BaseClass {
 		return generatednumber;
 	}
 	
-
+	public void highlightElement(WebDriver driver,WebElement element,String testcasename) throws IOException
+	{
+	
+	JavascriptExecutor js = ((JavascriptExecutor)driver);
+	js.executeScript("arguments[0].setAttribute('style','background: red; border:4px solid red;');", element);
+	
+	TakesScreenshot ts = (TakesScreenshot) driver;
+	File source = ts.getScreenshotAs(OutputType.FILE);
+	File target = new File(System.getProperty("user.dir") + "/Screenshots/" + testcasename + ".png");
+	FileUtils.copyFile(source, target);
+	
+}
 }
 

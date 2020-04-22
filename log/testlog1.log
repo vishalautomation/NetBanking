@@ -14,3 +14,61 @@
 2020-04-21 12:16:30,998 [main] INFO NetBanking - Adding customer details
 2020-04-21 12:16:45,984 [main] INFO NetBanking - Validation started
 2020-04-21 12:16:46,016 [main] INFO NetBanking - Test case passed
+2020-04-21 13:15:38,073 [main] INFO NetBanking - User enters username and password
+2020-04-21 13:15:44,097 [main] INFO NetBanking - Title validation started
+2020-04-21 13:15:44,221 [main] INFO NetBanking - User logsout from application
+2020-04-21 13:15:59,815 [main] INFO NetBanking - User is going to login
+2020-04-21 13:16:02,167 [main] INFO NetBanking - User successfully loggedin
+2020-04-21 13:16:05,197 [main] INFO NetBanking - Adding customer details
+2020-04-21 13:16:19,391 [main] INFO NetBanking - Validation started
+2020-04-21 13:16:19,407 [main] INFO NetBanking - Test case passed
+2020-04-21 13:59:51,933 [main] INFO NetBanking - User enters username and password
+2020-04-21 13:59:54,800 [main] INFO NetBanking - Title validation started
+2020-04-21 13:59:54,932 [main] INFO NetBanking - User logsout from application
+2020-04-21 14:00:09,666 [main] INFO NetBanking - User is going to login
+2020-04-21 14:00:11,870 [main] INFO NetBanking - User successfully loggedin
+2020-04-21 14:00:14,905 [main] INFO NetBanking - Adding customer details
+2020-04-21 14:00:55,146 [main] INFO NetBanking - Validation started
+2020-04-21 14:00:55,178 [main] INFO NetBanking - Test case failed
+2020-04-21 14:28:49,423 [main] INFO NetBanking - User enters username and password
+2020-04-21 14:28:51,967 [main] INFO NetBanking - Title validation started
+2020-04-21 14:28:51,988 [main] INFO NetBanking - User logsout from application
+2020-04-21 14:29:04,559 [main] INFO NetBanking - User is going to login
+2020-04-21 14:29:06,867 [main] INFO NetBanking - User successfully loggedin
+2020-04-21 14:29:09,881 [main] INFO NetBanking - Adding customer details
+2020-04-21 14:29:23,869 [main] INFO NetBanking - Validation started
+2020-04-21 14:29:23,922 [main] INFO NetBanking - Test case passed
+2020-04-21 15:09:56,428 [main] INFO NetBanking - User enters username and password
+2020-04-21 15:09:56,953 [main] INFO NetBanking - User logsout from application
+2020-04-21 15:14:37,281 [main] INFO NetBanking - User enters username and password
+2020-04-21 15:14:37,971 [main] INFO NetBanking - User logsout from application
+2020-04-21 19:05:59,612 [main] INFO NetBanking - User enters username and password
+2020-04-21 19:06:00,126 [main] INFO NetBanking - User logsout from application
+2020-04-21 19:08:50,369 [main] INFO NetBanking - User enters username and password
+2020-04-21 19:08:50,668 [main] INFO NetBanking - User logsout from application
+2020-04-21 19:12:41,407 [main] INFO NetBanking - User enters username and password
+2020-04-21 19:12:41,892 [main] INFO NetBanking - User logsout from application
+2020-04-21 19:17:05,861 [main] INFO NetBanking - User enters username and password
+2020-04-21 19:17:06,342 [main] INFO NetBanking - User logsout from application
+2020-04-21 19:20:44,731 [main] INFO NetBanking - User enters username and password
+2020-04-21 19:58:37,688 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:01:48,443 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:01:49,906 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:04:04,678 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:04:05,461 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:07:07,671 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:07:08,822 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:09:13,770 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:09:16,087 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:13:12,209 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:13:13,980 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:17:21,247 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:17:21,695 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:18:10,645 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:18:11,090 [main] INFO NetBanking - User logsout from application
+2020-04-21 20:20:35,311 [main] INFO NetBanking - User enters username and password
+2020-04-21 20:20:35,766 [main] INFO NetBanking - User logsout from application
+2020-04-21 21:01:40,170 [main] INFO NetBanking - User enters username and password
+2020-04-21 21:01:42,141 [main] INFO NetBanking - User logsout from application
+2020-04-21 21:02:54,775 [main] INFO NetBanking - User enters username and password
+2020-04-21 21:02:56,352 [main] INFO NetBanking - User logsout from application

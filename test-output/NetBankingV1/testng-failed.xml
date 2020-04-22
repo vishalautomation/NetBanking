@@ -9,7 +9,19 @@
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.NetBanking.TestCases.TC_LoginTest_001"/>
-      <class name="com.NetBanking.TestCases.TC_AddNewCustomer_003"/>
     </classes>
   </test> <!-- BankingApp -->
+  <test name="BankingApp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NetBanking.TestCases.TC_LoginTest_001">
+        <methods>
+          <include name="logout_test"/>
+          <include name="Initialization"/>
+          <include name="logintest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.NetBanking.TestCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- BankingApp(failed) -->
 </suite> <!-- Failed suite [NetBankingV1] -->
