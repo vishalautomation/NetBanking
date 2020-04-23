@@ -14,7 +14,7 @@
 		<classes>
 			<class name="com.NetBanking.TestCases.TC_LoginTest_001" />
 			<!--<class name="com.NetBanking.TestCases.TC_LoginDataDriven_002" /> -->
-			<class name="com.NetBanking.TestCases.TC_AddNewCustomer_003" />
+			<!--<class name="com.NetBanking.TestCases.TC_AddNewCustomer_003" />-->
 		</classes>
 	</test>
 </suite> 
