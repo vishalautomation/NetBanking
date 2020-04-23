@@ -80,3 +80,15 @@
 2020-04-22 19:36:16,265 - NetBanking -INFO - Adding customer details
 2020-04-22 19:36:29,952 - NetBanking -INFO - Validation started
 2020-04-22 19:36:29,981 - NetBanking -INFO - Test case passed
+2020-04-23 19:26:45,007 - NetBanking -INFO - User enters username and password
+2020-04-23 19:26:50,877 - NetBanking -INFO - Title validation started
+2020-04-23 19:26:50,936 - NetBanking -INFO - User logsout from application
+2020-04-23 19:28:51,648 - NetBanking -INFO - User enters username and password
+2020-04-23 19:28:53,781 - NetBanking -INFO - Title validation started
+2020-04-23 19:28:53,807 - NetBanking -INFO - User logsout from application
+2020-04-23 20:51:26,355 - NetBanking -INFO - User enters username and password
+2020-04-23 20:51:33,310 - NetBanking -INFO - Title validation started
+2020-04-23 20:51:33,474 - NetBanking -INFO - User logsout from application
+2020-04-23 20:52:54,383 - NetBanking -INFO - User enters username and password
+2020-04-23 20:52:56,418 - NetBanking -INFO - Title validation started
+2020-04-23 20:52:56,463 - NetBanking -INFO - User logsout from application
