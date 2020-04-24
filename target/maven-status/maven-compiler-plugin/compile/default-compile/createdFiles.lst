@@ -1,0 +1,7 @@
+com\NetBanking\Utilities\XLUtility.class
+com\NetBanking\Utilities\ReadConfig.class
+com\NetBanking\PageObjects\LoginPage.class
+com\NetBanking\base\BaseClass.class
+com\NetBanking\Utilities\Reporting.class
+com\NetBanking\PageObjects\AddNewCustomer.class
+com\NetBanking\Utilities\TestUtil.class

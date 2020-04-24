@@ -7,7 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import com.NetBanking.TestCases.BaseClass;
+import com.NetBanking.base.BaseClass;
+
+
 
 public class AddNewCustomer extends BaseClass {
 	

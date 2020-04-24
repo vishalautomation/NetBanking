@@ -5,6 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.NetBanking.PageObjects.LoginPage;
+import com.NetBanking.base.BaseClass;
+
+
 
 public class TC_LoginTest_001 extends BaseClass {
 	

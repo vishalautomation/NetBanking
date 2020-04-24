@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 import com.NetBanking.PageObjects.AddNewCustomer;
 import com.NetBanking.PageObjects.LoginPage;
+import com.NetBanking.base.BaseClass;
+
 
 public class TC_AddNewCustomer_003 extends BaseClass {
 

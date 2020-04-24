@@ -92,3 +92,76 @@
 2020-04-23 20:52:54,383 [main] INFO NetBanking - User enters username and password
 2020-04-23 20:52:56,418 [main] INFO NetBanking - Title validation started
 2020-04-23 20:52:56,463 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:02:26,131 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:02:31,388 [main] INFO NetBanking - Title validation started
+2020-04-23 21:02:31,486 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:07:35,465 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:07:43,132 [main] INFO NetBanking - Title validation started
+2020-04-23 21:07:43,239 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:11:57,475 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:11:59,645 [main] INFO NetBanking - Title validation started
+2020-04-23 21:11:59,665 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:16:27,862 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:16:30,306 [main] INFO NetBanking - Title validation started
+2020-04-23 21:16:30,331 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:16:58,498 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:17:00,951 [main] INFO NetBanking - Title validation started
+2020-04-23 21:17:00,981 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:17:28,725 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:17:30,934 [main] INFO NetBanking - Title validation started
+2020-04-23 21:17:30,955 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:18:01,901 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:18:03,988 [main] INFO NetBanking - Title validation started
+2020-04-23 21:18:04,015 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:37:08,108 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:37:12,916 [main] INFO NetBanking - Title validation started
+2020-04-23 21:37:12,969 [main] INFO NetBanking - User logsout from application
+2020-04-23 21:44:20,731 [main] INFO NetBanking - User enters username and password
+2020-04-23 21:44:23,324 [main] INFO NetBanking - Title validation started
+2020-04-23 21:44:23,345 [main] INFO NetBanking - User logsout from application
+2020-04-23 23:48:12,293 [main] INFO NetBanking - User enters username and password
+2020-04-23 23:48:14,459 [main] INFO NetBanking - Title validation started
+2020-04-23 23:48:14,602 [main] INFO NetBanking - User logsout from application
+2020-04-23 23:48:56,750 [main] INFO NetBanking - User enters username and password
+2020-04-23 23:48:59,060 [main] INFO NetBanking - Title validation started
+2020-04-23 23:48:59,081 [main] INFO NetBanking - User logsout from application
+2020-04-23 23:54:49,812 [main] INFO NetBanking - User enters username and password
+2020-04-23 23:54:50,607 [main] INFO NetBanking - User logsout from application
+2020-04-24 00:04:39,744 [main] INFO NetBanking - User enters username and password
+2020-04-24 00:04:41,869 [main] INFO NetBanking - Title validation started
+2020-04-24 00:04:41,900 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:10:59,313 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:11:01,941 [main] INFO NetBanking - Title validation started
+2020-04-24 10:11:02,001 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:11:51,292 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:11:53,076 [main] INFO NetBanking - Title validation started
+2020-04-24 10:11:53,101 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:12:24,757 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:12:26,659 [main] INFO NetBanking - Title validation started
+2020-04-24 10:12:26,680 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:12:54,649 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:12:56,532 [main] INFO NetBanking - Title validation started
+2020-04-24 10:12:56,567 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:26:50,388 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:26:52,456 [main] INFO NetBanking - Title validation started
+2020-04-24 10:26:52,484 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:27:23,919 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:27:26,665 [main] INFO NetBanking - Title validation started
+2020-04-24 10:27:26,689 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:27:54,693 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:27:56,790 [main] INFO NetBanking - Title validation started
+2020-04-24 10:27:56,813 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:29:21,274 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:29:23,410 [main] INFO NetBanking - Title validation started
+2020-04-24 10:29:23,432 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:29:56,733 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:29:58,733 [main] INFO NetBanking - Title validation started
+2020-04-24 10:29:58,761 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:31:10,296 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:31:13,131 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:31:48,539 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:31:50,693 [main] INFO NetBanking - Title validation started
+2020-04-24 10:31:50,723 [main] INFO NetBanking - User logsout from application
+2020-04-24 10:32:26,708 [main] INFO NetBanking - User enters username and password
+2020-04-24 10:32:28,557 [main] INFO NetBanking - Title validation started
+2020-04-24 10:32:28,584 [main] INFO NetBanking - User logsout from application

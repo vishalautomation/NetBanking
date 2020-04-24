@@ -1,4 +1,4 @@
-package com.NetBanking.TestCases;
+package com.NetBanking.base;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,8 +29,8 @@ public class BaseClass {
 	ReadConfig readconfig = new ReadConfig();
 	
 	String url = readconfig.getApplicationURL();
-	String username = readconfig.getUserName();
-	String password = readconfig.getPassword();
+	public String username = readconfig.getUserName();
+	public String password = readconfig.getPassword();
 	
 	public static WebDriver driver;
 	public static Logger logger;

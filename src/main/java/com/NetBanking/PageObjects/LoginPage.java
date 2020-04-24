@@ -7,7 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.NetBanking.TestCases.BaseClass;
+import com.NetBanking.base.BaseClass;
+
+
+
+
 
 
 public class LoginPage extends BaseClass {
