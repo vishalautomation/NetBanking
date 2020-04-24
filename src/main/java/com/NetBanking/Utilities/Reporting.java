@@ -4,8 +4,6 @@ package com.NetBanking.Utilities;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -20,17 +18,21 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+
 public class Reporting extends TestListenerAdapter
 {
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
 	
+	
 		
 	public void onStart(ITestContext testContext)
 	{
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
-		String repName="Test-Report-"+timeStamp+".html";
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		//String repName="Test-Report-"+timeStamp+".html";
+		String repName = "Extent.html";
+	
 		
 		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//specify location of the report
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
@@ -39,7 +41,7 @@ public class Reporting extends TestListenerAdapter
 		
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host name","localhost");
-		extent.setSystemInfo("Environemnt","QA");
+		extent.setSystemInfo("Environment","QA");
 		extent.setSystemInfo("user","Vishal Ramteke");
 		
 		htmlReporter.config().setDocumentTitle("NetBanking Test Project"); // Title of report
@@ -86,6 +88,8 @@ public class Reporting extends TestListenerAdapter
 	{
 		extent.flush();
 	}
+}
 	
 
-}
+
+		

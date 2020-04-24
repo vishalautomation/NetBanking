@@ -51,6 +51,7 @@ public class BaseClass {
 		if(browsr.equals("chrome"))
 		{		
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
+		System.setProperty("webdriver.chrome.silentOutput", "true");
 		 driver = new ChromeDriver();
 		
 		

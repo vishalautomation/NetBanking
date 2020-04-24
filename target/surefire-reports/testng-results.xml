@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="NetBankingV1" duration-ms="15479" started-at="2020-04-24T05:02:16Z" finished-at="2020-04-24T05:02:31Z">
+  <suite name="NetBankingV1" duration-ms="16515" started-at="2020-04-24T08:31:21Z" finished-at="2020-04-24T08:31:38Z">
     <groups>
     </groups>
-    <test name="BankingApp" duration-ms="15479" started-at="2020-04-24T05:02:16Z" finished-at="2020-04-24T05:02:31Z">
+    <test name="BankingApp" duration-ms="16515" started-at="2020-04-24T08:31:21Z" finished-at="2020-04-24T08:31:38Z">
       <class name="com.NetBanking.TestCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="Initialization" is-config="true" duration-ms="9958" started-at="2020-04-24T10:32:16Z" finished-at="2020-04-24T10:32:26Z">
+        <test-method status="PASS" signature="Initialization(java.lang.String)[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="Initialization" is-config="true" duration-ms="10828" started-at="2020-04-24T14:01:22Z" finished-at="2020-04-24T14:01:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="logintest()[pri:1, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="logintest" duration-ms="1889" started-at="2020-04-24T10:32:26Z" finished-at="2020-04-24T10:32:28Z">
+        <test-method status="PASS" signature="logintest()[pri:1, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="logintest" duration-ms="2159" started-at="2020-04-24T14:01:32Z" finished-at="2020-04-24T14:01:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="logout_test()[pri:2, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="logout_test" duration-ms="2567" started-at="2020-04-24T10:32:28Z" finished-at="2020-04-24T10:32:31Z">
+        <test-method status="PASS" signature="logout_test()[pri:2, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="logout_test" duration-ms="2289" started-at="2020-04-24T14:01:35Z" finished-at="2020-04-24T14:01:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout_test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="teardown" is-config="true" duration-ms="747" started-at="2020-04-24T10:32:31Z" finished-at="2020-04-24T10:32:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.NetBanking.TestCases.TC_LoginTest_001@59e84876]" name="teardown" is-config="true" duration-ms="843" started-at="2020-04-24T14:01:37Z" finished-at="2020-04-24T14:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
